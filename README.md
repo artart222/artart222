@@ -1,5 +1,4 @@
 * 👋 Hi, I’m @artart222
-* 👀 I’m interested in ...
 * 🌱 I’m currently learning rust 🦀
 * 🤝 I’m looking to collaborate on CodeArt 🖌️🎨
 * 📫 How to reach me:
