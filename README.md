@@ -3,6 +3,7 @@
 * 🤝 I’m looking to collaborate on CodeArt 🖌️🎨
 * 📫 How to reach me:
   * 📧 E-Mail: mobasherartin.icm@gmail.com
+  * 🖥️ My discord server: ![https://discord.gg/mhy9aK9Qzp](https://discord.gg/mhy9aK9Qzp)
 
 <!---
 artart222/artart222 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
