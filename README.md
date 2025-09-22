@@ -3,7 +3,6 @@
 * 🤝 I’m looking to collaborate on CodeArt 🖌️🎨
 * 📫 How to reach me:
   * 📧 E-Mail: mobasherartin.icm@gmail.com
-  * 🖥️ My discord server: ![https://discord.gg/mhy9aK9Qzp](https://discord.gg/mhy9aK9Qzp)
   * 💬 My discord profile: ![https://discord.com/users/602794632258256896](https://discord.com/users/602794632258256896)
 
 <!---
