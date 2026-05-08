@@ -81,12 +81,12 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=artart222&theme=tokyonight" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=artart222&theme=transparent" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=artart222&show_icons=true&theme=tokyonight" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=artart222&layout=compact&theme=tokyonight" height="180"/>
+  <img src="https://raw.githubusercontent.com/artart222/artart222/main/profile-summary-card-output/transparent/3-stats.svg" height="180"/>
+  <img src="https://raw.githubusercontent.com/artart222/artart222/main/profile-summary-card-output/transparent/1-repos-per-language.svg" height="180"/>
 </p>
 
 ---
