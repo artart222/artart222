@@ -11,7 +11,26 @@ artart222/artart222 is a ✨ special ✨ repository because its `README.md` (thi
 You can click the Preview link to take a look at your changes.
 --->
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=artart222&theme=transparent&mode=weekly)](https://git.io/streak-stats)
+<p align="center">
+  <img
+    src="https://streak-stats.demolab.com?user=artart222&theme=transparent&mode=weekly"
+    alt="GitHub streak stats"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/artart222/artart222/main/profile-summary-card-output/transparent/3-stats.svg"
+    alt="GitHub streak stats"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/artart222/artart222/main/profile-summary-card-output/transparent/1-repos-per-language.svg"
+    alt="GitHub streak stats"
+  />
+</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/artart222/artart222/output/github-contribution-grid-snake.svg" />
