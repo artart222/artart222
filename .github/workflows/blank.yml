@@ -2,7 +2,7 @@ name: GitHub-Profile-Summary-Cards
 
 on:
   schedule:
-    # Runs every day at midnight UTC
+    # Runs every day at 00:00 UTC
     - cron: "0 0 * * *"
 
   workflow_dispatch:
@@ -18,6 +18,15 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Check token exists
+        run: |
+          if [ -z "${{ secrets.PROFILE_STATS }}" ]; then
+            echo "Token is EMPTY"
+            exit 1
+          else
+            echo "Token exists"
+          fi
 
       - name: Generate profile summary cards
         uses: vn7n24fzkq/github-profile-summary-cards@release
