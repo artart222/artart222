@@ -22,17 +22,8 @@
 
 ## 🚀 Featured Projects
 
-<p align="center">
-
-<a href="https://github.com/artart222/codeart">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=artart222&repo=codeart&theme=tokyonight" />
-</a>
-
-<a href="https://github.com/artart222/website-generator">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=artart222&repo=website-generator&theme=tokyonight" />
-</a>
-
-</p>
+- 🔗 **[CodeArt](https://github.com/artart222/codeart)** — Developer tools & automation system  
+- 🔗 **[Website Generator](https://github.com/artart222/website-generator)** — Python static/dynamic site generator
 
 ---
 
