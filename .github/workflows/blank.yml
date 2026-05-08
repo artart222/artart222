@@ -1,0 +1,32 @@
+name: GitHub-Profile-Summary-Cards
+
+on:
+  schedule:
+    # Runs every day at midnight UTC
+    - cron: "0 0 * * *"
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-summary-cards
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate profile summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+
+        with:
+          USERNAME: artart222
+          BRANCH_NAME: main
+          UTC_OFFSET: 8
+          EXCLUDE: ""
+          AUTO_PUSH: true
