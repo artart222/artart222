@@ -1,0 +1,41 @@
+name: GitHub-Profile-Summary-Cards
+
+on:
+  schedule:
+    # Runs every day at 00:00 UTC
+    - cron: "0 0 * * *"
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-summary-cards
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check token exists
+        run: |
+          if [ -z "${{ secrets.PROFILE_STATS }}" ]; then
+            echo "Token is EMPTY"
+            exit 1
+          else
+            echo "Token exists"
+          fi
+
+      - name: Generate profile summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROFILE_STATS }}
+
+        with:
+          USERNAME: artart222
+          BRANCH_NAME: main
+          UTC_OFFSET: 8
+          EXCLUDE: ""
+          AUTO_PUSH: true
